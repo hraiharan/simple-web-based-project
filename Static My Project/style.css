@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-img {
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.center-align {
+    font-family: "Bree Serif";
+    text-align: center;
+}
+
+.main-heading {
+    color: #183b56;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.main-para {
+    color: #616e7c;
+    font-size: 15px;
+}
+
+.main-img1 {
+    margin: 3vw;
+    height: 100px;
+    width: 200px;
+}
+
+
+.backgrd-container1 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png');
+    background-size: cover;
+    height: 100vh
+}
+
+.card-container1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    height: 30vh;
+}
+
+.main-heading1 {
+    font-family: "Bree Serif";
+    font-size: 26px;
+    color: #5752ab;
+}
+
+.paragraph1 {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.button1 {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #616e7c;
+    margin: 5vw;
+
+}
+
+.button2 {
+    border-radius: 5px;
+    margin: 5vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main3 {
+    background-size: cover;
+    height: 100vh;
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png');
+}
+
+.meals3 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 30vh;
+    padding: 15px;
+    background-color: #f6c56e;
+}
+
+.heading3 {
+    font-family: "Bree Serif";
+}
+
+.para-btn3 {
+    font-family: "Roboto";
+}
+
+.btn13 {
+    padding: 8px;
+    font-size: 12px;
+    background-color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 30vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.backgrd-container4 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png');
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.card-container4 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 30px;
+    font-family: Roboto;
+    background-color: #ffffff;
+}
+
+.main-heading4 {
+    font-size: 17px;
+    color: #323f4b;
+}
+
+.paragraph4 {
+    font-size: 13px;
+    color: #7b8794;
+}
+
+.button4 {
+    background-color: #323f4b;
+    color: #ffffff;
+    padding: 4px;
+    border-radius: 5px;
+}

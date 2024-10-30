@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section-main">
+        <img class="main-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" alt="" />
+        <div class="center-align">
+            <h1 class="main-heading">
+                My project
+            </h1>
+            <p class="main-para">These are a few of my static website project that developed using HTML,CSS and Bootstrap</p>
+        </div>
+        <div class="d-flex flex-row">
+            <img class="main-img1" onclick="display('section-tech')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" alt="" />
+            <img class="main-img1" onclick="display('section-food')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" alt="" />
+        </div>
+        <div class="d-flex flex-row">
+            <img class="main-img1" onclick="display('section-food')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" alt="" />
+            <img class="main-img1" onclick="display('section-news')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" alt="" />
+        </div>
+    </div>
+
+
+
+
+
+    <div id="section-tech">
+        <div class="backgrd-container1 d-flex flex-column justify-content-end">
+            <div class="card-container1">
+                <h1 class="main-heading1">
+                    Advanced technologies
+                </h1>
+                <p class="paragraph1">
+                    machinery and equipment developed from the application of scientific knowledge.
+                </p>
+                <div class="d-flex flex-row ">
+                    <button class="button1">
+                        Learn more
+                    </button>
+                    <button class="button2 btn btn-primary" onclick="display('section-main')">
+                        Back
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-food">
+        <div class="main3 d-flex flex-column justify-content-end">
+
+            <div class="meals3 para-btn3">
+                <h1 class="heading3">
+                    Happy Meals
+                </h1>
+                <p>
+                    Discover the best food over the 1,000 restaurants
+
+                </p>
+                <div>
+                    <button class="btn13">Book Now</button>
+                    <button class="btn13" onclick="display('section-main')">Back</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-news">
+        <div class="backgrd-container4 d-flex flex-column justify-content-end">
+            <div class="card-container4">
+                <p class="paragraph4">
+                    NEWS OF THE DAY
+                </p>
+                <h1 class="main-heading4">
+                    iB Cricket announces world's first
+                    Virtual Reality Cricket League
+
+                </h1>
+                <p class="paragraph4">
+                    IB Cricket and Viu together have announced the World's
+                    first virtual reality cricket league featuring 12 international
+                    cricketers, who will be competing against each other for
+                    he iB Cricket Super Over League title in Mumbai. lconic
+                    cricketers like Virender Sehwag. Suresh Raina, Brendon McCullum will be competing in the league.
+                </p>
+                <button class="button4">
+                    Read more
+                </button>
+                <button class="btn13" onclick="display('section-main')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section-main">
+        <div class="backgrd-container d-flex flex-column justify-content-end">
+            <div class="card-container">
+
+                <h1 class="main-heading">
+                    Siunrise Avenue
+
+                </h1>
+                <p class="paragraph ">
+                    Move to what moves you
+                </p>
+                <button class="btn btn-primary" onclick="display('section-avenue')">
+                    Book flat
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="section-avenue" class="avenue">
+        <h1 class="avenue-heading">
+            Sunrise Avenue
+        </h1>
+        <div class="d-flex flex-row card" onclick="display('section-c1')" style="margin:20px">
+            <img class="img1" src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" alt="" />
+            <div style="margin:10px;">
+                <h1 class="sub-h">3BHK Flat</h1>
+                <p class="sub-p">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack .Its built-up area is about 1600sq.ft.A spacious home for you to live in.</p>
+            </div>
+        </div>
+        <div class="d-flex flex-row card" onclick="display('section-c2')" style="margin:20px">
+            <img class="img1" src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" alt="" />
+            <div style="margin:10px;">
+                <h1 class="sub-h">2BHK Flat</h1>
+                <p class="sub-p">Aminimalist house made for modern-day families.It is fully furnished with trending furniture .Its built-up area is about 1200sq.ftS</p>
+            </div>
+        </div>
+        <div class="d-flex flex-row card" onclick="display('section-c3')" style="margin:20px">
+            <img class="img1" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" alt="" />
+            <div style="margin:10px;">
+                <h1 class="sub-h">4BHK Flat</h1>
+                <p class="sub-p"> A comtemparary home with more color and vibrancy .It si fully furnished with elegant furniture.Its built-up area is about 3600sq.ft</p>
+            </div>
+        </div>
+        <div style="margin:20;">
+            <button class="btn button1" onclick="display('section-main')"> Back</button>
+        </div>
+    </div>
+    <div id="section-c1">
+        <img class="img2" src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" alt="" />
+        <div class="container">
+
+            <h1 class="sub2-h">
+                RS 3000/-
+            </h1>
+            <div class="d-flex flex-row">
+                <img class="img3" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" alt="" />
+                <p class="sub2-p">D/N 5-2 ,Food Street ,Indore</p>
+            </div>
+            <hr />
+            <h1 class="sub2-h">Description </h1>
+            <p class="sub2-p">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack .Its built-up area is about 1600sq.ft.A spacious home for you to live in</p>
+            <div class="text-center">
+                <button class="btn button1">
+                    confirm
+                </button>
+                <button class="btn button1" onclick="display('section-avenue')"> Back</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="section-c2">
+        <img class="img2" src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png
+" alt="" />
+        <div class="container">
+
+            <h1 class="sub2-h">
+                RS 2000/-
+            </h1>
+            <div class="d-flex flex-row">
+                <img class="img3" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" alt="" />
+                <p class="sub2-p">D/N 6-2 ,Food Street ,Indore</p>
+            </div>
+            <hr />
+            <h1 class="sub2-h">Description </h1>
+            <p class="sub2-p">Aminimalist house made for modern-day families.It is fully furnished with trending furniture .Its built-up area is about 1200sq.ftS</p>
+            <div class="text-center">
+                <button class="btn button1">
+                    confirm
+                </button>
+                <button class="btn button1" onclick="display('section-avenue')"> Back</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="section-c3">
+        <img class="img2" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" alt="" />
+        <div class="container">
+
+            <h1 class="sub2-h">
+                RS 4000/-
+            </h1>
+            <div class="d-flex flex-row">
+                <img class="img3" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" alt="" />
+                <p class="sub2-p">D/N 5-2 ,Food Street ,Indore</p>
+            </div>
+            <hr />
+            <h1 class="sub2-h">Description </h1>
+            <p class="sub2-p">A comtemparary home with more color and vibrancy .It si fully furnished with elegant furniture.Its built-up area is about 3600sq.ft</p>
+            <div class="text-center">
+                <button class="btn button1">
+                    confirm
+                </button>
+                <button class="btn button1" onclick="display('section-avenue')"> Back</button>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
